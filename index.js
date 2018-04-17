@@ -24,16 +24,9 @@ function dec(n){
   return n
 }
 
-function makeInt(a){
-  var n = a
+function makeInt(n){
   parseInt(n, 10) 
   return n
-} 
-
-function preserveDecimal(a){
-  var n = a
-  parseInt(a, 10) 
-  return a
 } 
 
 function preserveDecimal(n){
